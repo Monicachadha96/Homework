@@ -1,4 +1,4 @@
-#breakdown of one of the check pin function
+#breakdown of one of the check pin function - to go to homework branch
 #user_pin1 = '0000'
 #def checkpin1(user_pin1):
 #    if user_pin1 == '1234':
