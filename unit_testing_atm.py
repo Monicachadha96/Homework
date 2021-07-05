@@ -36,9 +36,10 @@ def test_correct_pin(self):
 if __name__ == '__main__':
     unittest.main()
 
-#breakdown of one of the withdrawl function (this would be on a seperate file, submitted for the homework)
+#breakdown of one of the withdrawl function (this would be on a seperate file, submitted together for the homework)
+# balance = 100
+# withdrawl = 50
 # def withrawl_amount1(balance):
-#         withdrawl = int(input('Choose withdrawl amount:'))
 #         if withdrawl <= balance:
 #             balance = balance - withdrawl
 #             print("new balance " + str(balance))
@@ -46,6 +47,12 @@ if __name__ == '__main__':
 #         else:
 #           print('value too low')
 #           return 'value too low'
+
+#def main():
+#    print(withdrawl_amount1(balance))
+
+#if __name__ == '__main__':
+#    main()
 
 from atmcodebreakdown2 import withdrawl_amount1
 
