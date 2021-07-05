@@ -1,4 +1,4 @@
-GIT WORKFLOW FUNDAMENTALS
+GIT WORKFLOW FUNDAMENTALS - seperate branch
 
 Working Directory
 The working directory is the current files/folders you are working on locally that haven’t yet been committed. They are just in checkout.
