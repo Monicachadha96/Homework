@@ -1,0 +1,46 @@
+1.Python is a programming language. The main features are that it is open source, it is a high level programming language and relatively easy to learn vs other programming languages, and has a large selection of libraries to use.
+2.The main differences between Python 2 and Python 3 are that:
+Python 2 strings are stored in ASCII and in python 3 strings are stored in unicode
+Python 3 the print statement was changed to a print function
+Python 2 would round your number down, Python 3 doesn’t round the number
+3.PEP 8 is a document that provides guidelines and best practices on how to write Python code
+4.A program in computing is a specific set of operations for a computer to perform
+5.A process is the instance of a computer program that is being executed by one or many threads
+6.A cache is a storage location where temporary data or instructions are collected that will help websites for instance load quicker
+7.A thread is a flow of execution through the process code, multithreading is the ability of a central processing unit to provide multiple threads of execution at the same time, supported by the operating system
+8.Concurrency is when two or more tasks can start, run, and complete in overlapping time periods. Parallelism is when tasks literally run at the same time. Concurrency can be done with a single processing unit while Parallelism needs multiple processing units.
+9.GIL - Global Interpreter Lock, it prevents two threads from executing simultaneously in the same program
+10.Software development principles:
+DRY - Don’t repeat yourself the principle is that there should only ever be one copy of any important piece of information.
+KISS - Keep it simple, stupid and the principle is that most systems work best if they are kept simple and as efficient as possible
+BDUF - Big design up front which says the program’s design should be completed and perfected before implementation is started
+11.Garbage Collection is to release memory when the object is no longer in use. Python does this in two ways:
+Through reference counting When the reference count of an object reaches 0, reference counting garbage collection algorithm cleans up the object immediately.
+Reference cycle: If you have a cycle, reference count doesn’t reach zero, you wait for the generational garbage collection algorithm to run and clean the object.
+12.The python memory manager manages all of Python’s memory allocations. There’s a private heap that contains all Python objects and data structures. The Python memory manager manages the Python heap on demand.
+13.A python module is a python file containing a set of functions you would include in your application
+14.Docstrings are the string literals that appear right after the definition of a function, method, class, or module.
+15.Pickling - is the process whereby a Python object hierarchy is converted into a byte stream. Unpickling - is the inverse operation, whereby a byte stream is converted back into an object hierarchy.
+16.Pychecker and Pylint are the two tools used
+17.Arguments passed in python by reference which means that if It means if you change what a parameter refers to within a function, the change also reflects back in the calling function.
+Example: shop={'Apple':5}
+def shop(fruit):
+new={'Pear':6}
+shop.update(new)
+Return
+Shop will now be {'Apple':5,'Pear':6}
+18.A list you access through an index. index = [1,2,3,4,5] index[0] = 1
+A dictionary is a list but instead of accessing it through an index it is instead through a key, and a dictionary is made up of key-value pairs. a = {'apple': 'fruit', 'beetroot': 'vegetable', 'cake': 'dessert'} a['doughnut'] = 'snack'
+19.A namespace is a collection of currently defined symbolic names along with information about the object that each name references.The built-in namespace contains the names of all of Python’s built-in objects
+20.Pass is a placeholder for future code, it will not be ignored but nothing happens but you won’t get an error
+21.A unit test in python is a way of putting in test variables into a function to check a single competent gets the results you want
+22.Slicing allows us to choose values from a list using the index and you provide a start, stop and step
+24.A negative index goes from -1 and below instead of 0 and above
+24.Ternary operator is a conditional expression that evaluates an operator, it has three parts: if true, expression, if false. A way to use this would be to quickly check is an output is empty or not.
+25.*args allows us to pass a variable length argument list into a function. **kwargs to pass the variable keyword arguments to the function. You would use either of them when the variable could be different lengths e.g: if a new user is filling out a form and doesn’t need to fill out the entries the variable lengths may be different for different users.
+26.The range function creates a list and the xrange function only stores the parameters and then will generate the numbers on demand. Range uses up more memory
+27.Flask is an API that allows us to connect to the web browser in python and build up web applications e.g: an online booking system
+28.Clustered index is one where the data and index is stored in the same table and will be the primary index. A non clustered index is where the index and data will be stored in different tables, and will usually be a secondary index and there can be multiple indexes.
+29.A deadlock is where two transactions in a database block the progress of each other. The first transaction will have a lock on some database object that the other transaction wants to access, and vice versa. One of the processes will be terminated.
+30.A Live lock is one, where a request for exclusive lock is denied continuously because a series of overlapping shared locks keeps on interfering each other and to adapt from each other they keep on changing the status which further prevents them to complete the task.
+
